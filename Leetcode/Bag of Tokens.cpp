@@ -61,11 +61,12 @@ int main()
         for (int i = 0; i < n; i++)
         {
             cin >> v[i];
-        }
-        int power;
-        cin >> power;
 
-        cout << bagOfTokensScore(v, power) << endl;
+            int power;
+            cin >> power;
+
+            cout << bagOfTokensScore(v, power) << endl;
+        }
     }
 
     return 0;
